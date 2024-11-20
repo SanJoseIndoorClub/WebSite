@@ -11,7 +11,7 @@ export default function Navbar() {
           <div className="flex items-center">
             <a href="#" className="flex items-center space-x-2">
               <img 
-                src="src/img/IC sin fondo.png" 
+                src="src/assets/IndoorClub-Logo.png" 
                 alt="San José Indoor Club Logo" 
                 className="h-12 w-auto"
               />

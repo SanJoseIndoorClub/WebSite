@@ -14,7 +14,7 @@ export default function Hero() {
       
       <div className="relative h-full flex flex-col items-center justify-center text-center text-white px-4">
         <img 
-          src="src/img/IC sin fondo.png" 
+          src="src/assets/IndoorClub-Logo.png" 
           alt="San José Indoor Club Logo" 
           className="h-32 w-auto mb-8"
         />
