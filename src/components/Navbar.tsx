@@ -23,8 +23,20 @@ export default function Navbar() {
             <a href="#instalaciones" className="text-club-dark hover:text-club-primary">Instalaciones</a>
             <a href="#deportes" className="text-club-dark hover:text-club-primary">Deportes</a>
             <a href="#eventos" className="text-club-dark hover:text-club-primary">Eventos</a>
+            <a href="#app" className="text-club-dark hover:text-club-primary">Aplicación</a>
             <a href="#membresia" className="text-club-dark hover:text-club-primary">Membresía</a>
             <a href="#contacto" className="text-club-dark hover:text-club-primary">Contacto</a>
+
+            {/*<a 
+              href="https://appindoor.com" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="inline-flex items-center px-4 py-2 bg-club-secondary text-club-dark rounded-lg font-semibold hover:bg-club-secondary/90 transition-colors"
+            >
+              <Smartphone className="h-4 w-4 mr-2" />
+              App Móvil
+            </a>*/}
+
           </div>
 
           <div className="md:hidden flex items-center">
@@ -45,8 +57,20 @@ export default function Navbar() {
             <a href="#instalaciones" className="block px-3 py-2 text-club-dark hover:text-club-primary">Instalaciones</a>
             <a href="#deportes" className="block px-3 py-2 text-club-dark hover:text-club-primary">Deportes</a>
             <a href="#eventos" className="block px-3 py-2 text-club-dark hover:text-club-primary">Eventos</a>
+            <a href="#app" className="block px-3 py-2 text-club-dark hover:text-club-primary">Aplicación</a>
             <a href="#membresia" className="block px-3 py-2 text-club-dark hover:text-club-primary">Membresía</a>
             <a href="#contacto" className="block px-3 py-2 text-club-dark hover:text-club-primary">Contacto</a>
+
+            {/*<a 
+              href="https://appindoor.com" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="flex items-center px-3 py-2 text-club-dark hover:text-club-primary"
+            >
+              <Smartphone className="h-4 w-4 mr-2" />
+              App Móvil
+            </a>*/}
+
           </div>
         </div>
       )}
