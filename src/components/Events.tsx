@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import Modal from './Modal';
+import ImageModal from './ImageModal';
 
 interface Event {
   title: string;
@@ -14,6 +15,7 @@ interface Event {
 
 export default function Events() {
   const [selectedEvent, setSelectedEvent] = useState<Event | null>(null);
+  const [showImageModal, setShowImageModal] = useState(false);
 
   const events = [
     {
@@ -88,12 +90,20 @@ export default function Events() {
       >
         {selectedEvent && (
           <div className="space-y-6">
-            <div className="relative h-64 rounded-lg overflow-hidden">
+            <div 
+              className="relative h-64 rounded-lg overflow-hidden cursor-pointer"
+              onClick={() => setShowImageModal(true)}
+            >
               <img
                 src={selectedEvent.image}
                 alt={selectedEvent.title}
-                className="w-full h-full object-cover"
+                className="w-full h-full object-cover hover:opacity-90 transition-opacity"
               />
+              <div className="absolute inset-0 flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity">
+                <div className="bg-black/50 px-4 py-2 rounded-lg text-white text-sm">
+                  Click para ampliar
+                </div>
+              </div>
             </div>
             
             <div className="space-y-4">
@@ -140,6 +150,16 @@ export default function Events() {
           </div>
         )}
       </Modal>
+
+      {selectedEvent && (
+        <ImageModal
+          isOpen={showImageModal}
+          onClose={() => setShowImageModal(false)}
+          imageUrl={selectedEvent.image}
+          imageAlt={selectedEvent.title}
+        />
+      )}
+
     </section>
   );
 }
