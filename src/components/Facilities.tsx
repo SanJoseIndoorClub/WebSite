@@ -2,23 +2,58 @@ export default function Facilities() {
     const facilities = [
       {
         title: "Piscinas",
-        image: "https://images.unsplash.com/photo-1576013551627-0cc20b96c2a7?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80",
-        description: "Piscinas olímpicas climatizadas y áreas de recreación acuática"
+        image: "src/assets/Piscina-Ext.jpg",
+        description: "Piscinas semiolímpicas climatizadas"
       },
       {
         title: "Canchas de Tenis",
-        image: "https://images.unsplash.com/photo-1554068865-24cecd4e34b8?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80",
-        description: "Canchas profesionales de tenis con iluminación nocturna"
+        image: "src/assets/Cancha-Tenis.jpg",
+        description: "Canchas profesionales de tenis con iluminación"
       },
       {
         title: "Gimnasio",
-        image: "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80",
-        description: "Equipamiento de última generación y entrenadores profesionales"
+        image: "src/assets/Biomecanico.jpeg",
+        description: "Equipamiento para todo grupo muscular y entrenadores profesionales"
       },
       {
-        title: "Restaurante",
-        image: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80",
-        description: "Gastronomía internacional en un ambiente exclusivo"
+        title: "Restaurante La Grill",
+        image: "src/assets/LaGrill.jpeg",
+        description: "Gastronomía única en un ambiente exclusivo"
+      },
+      {
+        title: "Racquetball",
+        image: "src/assets/Racquetball.jpg",
+        description: "Canchas de racquetball con estándares internacionales"
+      },
+      {
+        title: "Cafetería",
+        image: "src/assets/Cafetería.jpeg",
+        description: "Espacio acogedor con opciones de bebidas y bocadillos"
+      },
+      {
+        title: "Bar El Mirador",
+        image: "src/assets/Mirador-Bar.jpeg",
+        description: "Bar con vista panorámica para disfrutar de un ambiente relajado"
+      },
+      {
+        title: "La Hectárea",
+        image: "src/assets/Hectarea.jpg",
+        description: "Zona al aire libre ideal para caminar, correr o respirar aire fresco"
+      },
+      {
+        title: "Fútbol",
+        image: "src/assets/Futbol.jpg",
+        description: "Cancha de fútbol con césped sintético y excelente iluminación"
+      },
+      {
+        title: "Gimnasio Multiuso",
+        image: "src/assets/Multiuso.jpg",
+        description: "Cancha multiuso equipada para baloncesto y otras actividades deportivas"
+      },
+      {
+        title: "Boliche",
+        image: "src/assets/Boliche.jpg",
+        description: "Pistas de boliche modernas para diversión en familia"
       }
     ];
   

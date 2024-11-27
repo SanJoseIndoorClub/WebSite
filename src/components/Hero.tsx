@@ -6,7 +6,7 @@ export default function Hero() {
       <div 
         className="absolute inset-0 bg-cover bg-center"
         style={{
-          backgroundImage: 'url("https://images.unsplash.com/photo-1534438327276-14e5300c3a48?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80")',
+          backgroundImage: 'url("src/assets/Portada-Indoor-Club.jpg")',
         }}
       >
         <div className="absolute inset-0 bg-club-dark/60" />
@@ -22,7 +22,7 @@ export default function Hero() {
           San José Indoor Club
         </h1>
         <p className="text-xl md:text-2xl mb-8 max-w-2xl">
-          El club social y deportivo más exclusivo de Costa Rica
+          Un club social y deportivo de Costa Rica
         </p>
         <a
           href="#membresia"
