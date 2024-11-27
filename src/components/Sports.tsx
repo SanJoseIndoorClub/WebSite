@@ -17,17 +17,17 @@ export default function Sports() {
       },
       {
         name: "Fútbol",
-        description: "Canchas de fútbol 5 y 11 con césped artificial",
+        description: "Cancha de fútbol con césped artificial",
         icon: "⚽"
       },
       {
         name: "Baloncesto",
-        description: "Canchas techadas con iluminación profesional",
+        description: "Cancha techada con iluminación profesional",
         icon: "🏀"
       },
       {
-        name: "Yoga",
-        description: "Clases de yoga y meditación en ambiente tranquilo",
+        name: "Clases grupales",
+        description: "Clases de yoga, baile entre otras",
         icon: "🧘‍♀️"
       }
     ];

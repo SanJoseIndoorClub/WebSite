@@ -1,22 +1,16 @@
 export default function Events() {
   const events = [
     {
-      title: "Torneo de Tenis",
-      date: "15-17 Abril",
-      image: "https://images.unsplash.com/photo-1554068865-24cecd4e34b8?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80",
-      category: "Deportivo"
-    },
-    {
-      title: "Cena de Gala",
-      date: "30 Abril",
-      image: "https://images.unsplash.com/photo-1519225421980-715cb0215aed?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80",
+      title: "Sombrillazo 2024",
+      date: "30 Noviembre",
+      image: "src/assets/events/Sombrillazo-2024.jpeg",
       category: "Social"
     },
     {
-      title: "Competencia de Natación",
-      date: "7-8 Mayo",
-      image: "https://images.unsplash.com/photo-1576013551627-0cc20b96c2a7?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80",
-      category: "Deportivo"
+      title: "Feria de emprendedores",
+      date: "4-7 Diciembre",
+      image: "src/assets/events/Feria-Emprendedores.jpeg",
+      category: "Social"
     }
   ];
 
@@ -52,9 +46,9 @@ export default function Events() {
                 <h3 className="text-xl font-semibold text-club-dark mb-2">
                   {event.title}
                 </h3>
-                <button className="mt-4 text-club-primary hover:text-club-dark font-semibold transition-colors">
+                {/*<button className="mt-4 text-club-primary hover:text-club-dark font-semibold transition-colors">
                   Ver detalles →
-                </button>
+                </button>*/}
               </div>
             </div>
           ))}
