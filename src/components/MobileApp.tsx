@@ -75,7 +75,7 @@ export default function MobileApp() {
                 </a>
               </div>
               <a
-                href="https://appindoor.com"
+                href="https://sanjoseindoorclub-cr.matchpoint.com.es/Login.aspx"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center w-full bg-club-secondary text-club-dark px-6 py-3 rounded-lg font-semibold hover:bg-club-secondary/90 transition-colors"
@@ -91,7 +91,7 @@ export default function MobileApp() {
               <div className="absolute top-0 left-1/2 -translate-x-1/2 w-1/3 h-6 bg-black rounded-b-2xl" />
               <div className="w-full h-full bg-club-primary rounded-[2.5rem] overflow-hidden">
                 <img
-                  src="https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-1.2.1&auto=format&fit=crop&w=1974&q=80"
+                  src="src/assets/Reservas.png"
                   alt="App móvil San José Indoor Club"
                   className="w-full h-full object-cover"
                 />
