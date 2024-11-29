@@ -3,10 +3,7 @@ import { Check } from 'lucide-react';
 export default function Membership() {
   const benefits = [
     "Acceso ilimitado a todas las instalaciones",
-    "Clases deportivas incluidas",
-    "Acceso a eventos exclusivos",
-    "Reservas prioritarias",
-    "Descuentos en restaurante",
+    "Acceso a eventos en el restaurante",
     "Invitados con tarifas especiales"
   ];
 
@@ -42,7 +39,7 @@ export default function Membership() {
               <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8">
                 <div className="text-center">
                   <div className="text-sm uppercase tracking-wide mb-2">
-                    Membresía Familiar
+                    Membresía Familiar*
                   </div>
                   <div className="text-4xl font-bold mb-2">
                     Consulta precios

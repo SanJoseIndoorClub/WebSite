@@ -1,4 +1,4 @@
-import { Facebook, Instagram, Twitter } from 'lucide-react';
+//import { Facebook, Instagram, Twitter } from 'lucide-react';
 
 export default function Footer() {
   return (
@@ -8,10 +8,10 @@ export default function Footer() {
           <div className="col-span-1 md:col-span-2">
             <h3 className="text-2xl font-bold mb-4">San José Indoor Club</h3>
             <p className="text-gray-400 mb-4">
-              El club social y deportivo más exclusivo de Costa Rica, donde la excelencia y el confort se unen para brindarte la mejor experiencia.
+              Un club social y deportivo de Costa Rica, donde la excelencia y el confort se unen para brindarte la mejor experiencia.
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="text-gray-400 hover:text-white">
+              {/*<a href="#" className="text-gray-400 hover:text-white">
                 <Facebook />
               </a>
               <a href="#" className="text-gray-400 hover:text-white">
@@ -19,7 +19,7 @@ export default function Footer() {
               </a>
               <a href="#" className="text-gray-400 hover:text-white">
                 <Twitter />
-              </a>
+              </a>*/}
             </div>
           </div>
 
@@ -31,6 +31,7 @@ export default function Footer() {
               <li><a href="#deportes" className="text-gray-400 hover:text-white">Deportes</a></li>
               <li><a href="#eventos" className="text-gray-400 hover:text-white">Eventos</a></li>
               <li><a href="#membresia" className="text-gray-400 hover:text-white">Membresía</a></li>
+              <li><a href="#app" className="text-gray-400 hover:text-white">Aplicación</a></li>
             </ul>
           </div>
 
