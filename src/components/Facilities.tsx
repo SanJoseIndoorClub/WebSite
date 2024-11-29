@@ -1,3 +1,10 @@
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Navigation, Pagination, Autoplay } from 'swiper/modules';
+import OptimizedImage from './OptimizedImage';
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+
 export default function Facilities() {
     const facilities = [
       {
@@ -69,28 +76,39 @@ export default function Facilities() {
             </p>
           </div>
   
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="h-[600px] rounded-xl overflow-hidden">
+          <Swiper
+            modules={[Navigation, Pagination, Autoplay]}
+            spaceBetween={0}
+            slidesPerView={1}
+            navigation
+            pagination={{ clickable: true }}
+            autoplay={{
+              delay: 5000,
+              disableOnInteraction: false,
+            }}
+            watchSlidesProgress
+            className="h-full"
+          >
             {facilities.map((facility) => (
-              <div key={facility.title} className="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow">
-                <div className="h-48 overflow-hidden">
-                  <img
+              <SwiperSlide key={facility.title}>
+                <div className="relative h-full">
+                  <OptimizedImage
                     src={facility.image}
                     alt={facility.title}
-                    className="w-full h-full object-cover transform hover:scale-110 transition-transform duration-300"
+                    className="h-full"
                   />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/75 via-black/30 to-transparent" />
+                  <div className="absolute bottom-0 left-0 right-0 p-8 text-white">
+                    <h3 className="text-3xl font-bold mb-4">{facility.title}</h3>
+                    <p className="text-lg max-w-3xl">{facility.description}</p>
+                  </div>
                 </div>
-                <div className="p-6">
-                  <h3 className="text-xl font-semibold text-gray-900 mb-2">
-                    {facility.title}
-                  </h3>
-                  <p className="text-gray-600">
-                    {facility.description}
-                  </p>
-                </div>
-              </div>
+              </SwiperSlide>
             ))}
-          </div>
+          </Swiper>
         </div>
-      </section>
-    );
-  }
+      </div>
+    </section>
+  );
+}
