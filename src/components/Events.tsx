@@ -37,6 +37,16 @@ export default function Events() {
       time: "A partir de las 9:30 AM",
       location: "Gimnasio Multiuso",
       price: "N/A"
+    },
+    {
+      title: "Clase de Spinning",
+      date: "Todas las semanas",
+      image: "src/assets/events/Clase Spinning.webp",
+      category: "Deportivo",
+      description: "Bastantes bicicletas sincronizadas en una sola clase grupal. Música, energía y cardio al máximo nivel. ¡Reservá tu espacio!",
+      time: "8:10 AM a 9:10 AM",
+      location: "Salón de clases de Biomecánico",
+      price: "¢3.400 por persona. Reserve desde la APP."
     }
   ];
 
