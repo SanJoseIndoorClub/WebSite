@@ -8,7 +8,12 @@ export default function Sports() {
       {
         name: "Natación",
         description: "Programas de entrenamiento y clases de natación",
-        icon: "🏊‍♂️"
+        icon: "🏊"
+      },
+      {
+        name: "Racquetball",
+        description: "Clases de entrenamiento para mejorar tu nivel en el deporte",
+        icon: "🥍"
       },
       {
         name: "Gimnasio",
