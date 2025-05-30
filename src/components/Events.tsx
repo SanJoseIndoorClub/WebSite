@@ -27,7 +27,17 @@ export default function Events() {
       time: "7:00 PM - 11:00 PM",
       location: "Restaurante: La Grill",
       price: "¢10.000 por persona. Incluye dos cocteles."
-    }    
+    },
+    {
+      title: "Basketball Shooting Challenge",
+      date: "31 Mayo - 1 Junio",
+      image: "src/assets/events/bskt shooting challenge.webp",
+      category: "Deportivo",
+      description: "Desafía tus habilidades en tiros de tres, velocidad y dribleo.",
+      time: "A partir de las 9:30 AM",
+      location: "Gimnasio Multiuso",
+      price: "N/A"
+    }
   ];
 
   return (
