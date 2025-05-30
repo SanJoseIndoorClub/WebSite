@@ -19,25 +19,15 @@ export default function Events() {
 
   const events = [
     {
-      title: "Sombrillazo 2024",
-      date: "30 Noviembre",
-      image: "src/assets/events/Sombrillazo-2024.jpeg",
+      title: "Noche Retro",
+      date: "31 Mayo",
+      image: "src/assets/events/Noche REtro.webp",
       category: "Social",
-      description: "Una velada elegante con cena tipo buffet, música en vivo y baile. El dress code será formal. Disfruta de una noche inolvidable en compañía de otros socios del club e invitados.",
-      time: "6:00 PM - 2:45 AM",
-      location: "Canchas de Tenis 1, 2 y 3",
-      price: "¢XX.XXX por persona."
-    },
-    {
-      title: "Feria de emprendedores",
-      date: "4-7 Diciembre",
-      image: "src/assets/events/Feria-Emprendedores.jpeg",
-      category: "Social",
-      description: "Venga con su familia y amigos, disfrute del ambiente festivo y conozca  a emprendedores que tienen mucho que ofrecer. ¡Juntos impulsamos el comercio local!",
-      time: "A partir de las 9:30 AM",
-      location: "Pasillos del San José Indoor Club",
-      price: "N/A"
-    }
+      description: "¡Vení a bailar con tus amigos al ritmo de los clásicos de los 70s, 80s y 90s! Ambiente retro, luces, DJ en vivo y mucha diversión.",
+      time: "7:00 PM - 11:00 PM",
+      location: "Restaurante: La Grill",
+      price: "¢10.000 por persona. Incluye dos cocteles."
+    }    
   ];
 
   return (
